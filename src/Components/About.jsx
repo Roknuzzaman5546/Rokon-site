@@ -1,8 +1,20 @@
+import { useEffect } from 'react';
 import aboutimg from '../assets/aboutimg.jpg'
+import 'aos/dist/aos.css';
+import Aos from 'aos';
 
 const About = () => {
+
+
+    useEffect(() => {
+        Aos.init({
+            duration: 700,
+            offset: 200
+        });
+    }, []);
+
     return (
-        <div className=' w-11/12 mx-auto'>
+        <div data-aos="zoom-out" className=' w-11/12 mx-auto'>
             <h2 className=" text-center text-3xl font-bold mb-10">About me</h2>
             <div className=' flex md:flex-row-reverse flex-col-reverse gap-10 justify-around items-center'>
                 <div className='w-full '>

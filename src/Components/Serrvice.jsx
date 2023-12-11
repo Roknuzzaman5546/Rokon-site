@@ -1,11 +1,22 @@
 import webdevlopmentimg from '../assets/webdevlopment.jpg'
 import marstarkimg from '../assets/marnstark.jpg'
 import fronendimg from '../assets/frontend.jpg'
+import { useEffect } from 'react';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 
 const Serrvice = () => {
+
+    useEffect(() => {
+        AOS.init({
+            duration: 700,
+            offset: 200
+        });
+    }, []);
+
     return (
-        <div className=' w-11/12 mx-auto mt-20'>
+        <div data-aos="zoom-in" className=' w-11/12 mx-auto mt-20'>
             <h2 className='text-center text-3xl font-bold mb-10'>My Services</h2>
             <div className=' flex md:flex-row flex-col gap-4 justify-around'>
                 <div className=' flex flex-col items-center space-y-2'>

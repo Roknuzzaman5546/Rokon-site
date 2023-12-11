@@ -6,7 +6,7 @@ const Banner = () => {
 
     return (
         <div className=" h-screen">
-            <div className=" flex md:flex-row flex-col-reverse gap-5 justify-around items-center w-11/12 mx-auto mt-20">
+            <div className=" flex md:flex-row flex-col-reverse gap-5 justify-around items-center w-11/12 mx-auto mt-36">
                 <div className=" text-left">
                     <h2 className=" text-5xl text-white">Hi There👋 <br />I am <span className=" text-pink-900">Roknuzzaman</span></h2>
                     <p className=" text-white">I am Into <span className=" text-yellow-500">Frontend-Devlopment</span></p>
