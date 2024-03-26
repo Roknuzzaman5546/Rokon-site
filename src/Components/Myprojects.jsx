@@ -16,7 +16,7 @@ const Myprojects = () => {
     }, []);
 
     return (
-        <div className=' bg-black'>
+        <div className=' bg-black' id='Project'>
             <div className=' w-11/12 mx-auto pt-20'>
                 <h2 className=" text-4xl font-bold text-center mb-10">My projects</h2>
                 <div>

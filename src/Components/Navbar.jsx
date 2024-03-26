@@ -3,12 +3,13 @@ import bgimg from '../assets/Logo.jpg'
 
 const Navbar = () => {
     const links = <>
-        <li><Link to='/'>Home</Link></li>
-        <li><Link to='/about'>About</Link></li>
-        <li><Link to='/service'>Service</Link></li>
-        <li><Link to='/skill'>Skill</Link></li>
-        <li><Link to='/project'>Project</Link></li>
-        <li><Link to='/contact'>Contact</Link></li>
+        <li><a href='/'>Home</a></li>
+        <li><a href="#About">About</a></li>
+        {/* <li><Link to='/about'>About</Link></li> */}
+        <li><a href='#Service'>Service</a></li>
+        <li><a href='#Skill'>Skill</a></li>
+        <li><a href='#Project'>Project</a></li>
+        <li><a href='#Contact'>Contact</a></li>
     </>
 
     return (

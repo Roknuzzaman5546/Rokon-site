@@ -13,7 +13,7 @@ const Mycontact = () => {
     }, []);
 
     return (
-        <div className=' bg-black'>
+        <div className=' bg-black' id='Contact'>
             <div className=' md:max-w-screen-2xl w-11/12 mx-auto py-20'>
                 <h2 className=" text-4xl font-bold text-center mb-10">Contact</h2>
                 <div className=' mx-auto flex flex-col lg:flex-row lg:justify-center justify-between md:gap-[100px] gap-3 md:items-center'>

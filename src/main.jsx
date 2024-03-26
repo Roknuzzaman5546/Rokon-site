@@ -22,26 +22,26 @@ const router = createBrowserRouter([
         path: '/',
         element: <Home></Home>
       },
-      {
-        path: '/about',
-        element: <About></About>
-      },
-      {
-        path: '/service',
-        element: <Serrvice></Serrvice>
-      },
-      {
-        path: '/skill',
-        element: <Myskill></Myskill>
-      },
-      {
-        path: '/project',
-        element: <Myprojects></Myprojects>
-      },
-      {
-        path: '/contact',
-        element: <Mycontact></Mycontact>
-      }
+      // {
+      //   path: '/about',
+      //   element: <About></About>
+      // },
+      // {
+      //   path: '/service',
+      //   element: <Serrvice></Serrvice>
+      // },
+      // {
+      //   path: '/skill',
+      //   element: <Myskill></Myskill>
+      // },
+      // {
+      //   path: '/project',
+      //   element: <Myprojects></Myprojects>
+      // },
+      // {
+      //   path: '/contact',
+      //   element: <Mycontact></Mycontact>
+      // }
     ]
   },
 ]);
