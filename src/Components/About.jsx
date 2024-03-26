@@ -1,10 +1,9 @@
 import { useEffect } from 'react';
-import aboutimg from '../assets/aboutimg.jpg'
+import aboutImg from '../assets/aboutImg.jpg'
 import 'aos/dist/aos.css';
 import Aos from 'aos';
 
 const About = () => {
-
 
     useEffect(() => {
         Aos.init({
@@ -15,13 +14,13 @@ const About = () => {
 
     return (
         <div className=' bg-black'>
-            <div data-aos="zoom-out" className=' w-11/12 mx-auto py-10'>
+            <div data-aos="zoom-out" className=' py-10 md:max-w-screen-2xl w-11/12 mx-auto'>
                 <h2 className=" text-center text-3xl font-bold mb-10">About me</h2>
-                <div className=' flex md:flex-row-reverse flex-col-reverse gap-10 justify-around items-center'>
-                    <div className='w-full '>
-                        <img className='h-72 w-80 rounded-md' src={aboutimg} alt="" />
+                <div className=' mx-auto flex flex-col lg:flex-row-reverse lg:justify-center xl:justify-between md:gap-[100px] gap-3 md:items-center'>
+                    <div className='lg:w-2/5 w-full'>
+                        <img className='h-72 rounded-md' src={aboutImg} alt="" />
                     </div>
-                    <div className=' md:text-left text-center md:ml-20 ml-0'>
+                    <div className='lg:w-2/5 w-full md:text-left text-center md:ml-20 ml-0'>
                         <h2 className=' text-2xl font-bold mb-2'>I am Roknuzzaman</h2>
                         <p className=' text-xl my-2'>Frontend web devloper</p>
                         <p>Hey, I am Roknuzzaman. I am an Fontend Web-Devloper.I am a website developer from Bangladesh. I create professional websites. As a web   developer, I have a passion for creating dynamic and engaging online  experiences.</p>

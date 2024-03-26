@@ -26,8 +26,8 @@ const Navbar = () => {
                     <img className=" w-10 h-10 rounded-full" src={bgimg} alt="" />
                     <a className="btn btn-ghost text-purple-700 text-2xl font-Lobester font-bold">Roknuzzaman</a>
                 </div>
-                <div className="navbar-end hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1 font-Slabo font-bold text-xl">
+                <div className=" navbar-end hidden lg:flex">
+                    <ul className="menu menu-horizontal px-1 font-Slabo font-bold">
                         {links}
                     </ul>
                 </div>

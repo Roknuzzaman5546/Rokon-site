@@ -14,13 +14,13 @@ const Mycontact = () => {
 
     return (
         <div className=' bg-black'>
-            <div className=' w-11/12 mx-auto py-20'>
+            <div className=' md:max-w-screen-2xl w-11/12 mx-auto py-20'>
                 <h2 className=" text-4xl font-bold text-center mb-10">Contact</h2>
-                <div className=' flex md:flex-row flex-col gap-2 justify-around items-center'>
-                    <div data-aos="fade-right">
+                <div className=' mx-auto flex flex-col lg:flex-row lg:justify-center justify-between md:gap-[100px] gap-3 md:items-center'>
+                    <div data-aos="fade-right" className='lg:w-2/5 w-full'>
                         <img className='' src={conatactimg} alt="" />
                     </div>
-                    <div data-aos="fade-left" className=' w-1/2 text-black font-bold'>
+                    <div data-aos="fade-left" className=' lg:w-2/5 w-full text-black font-bold'>
                         <form>
                             <input type="text" placeholder="Name" className="input input-bordered w-full max-w-md bg-white" /><br />
                             <input type="email" placeholder="Email" className="input input-bordered w-full max-w-md my-2 bg-white" /><br />

@@ -2,9 +2,9 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <div className=' pt-10'>
+        <div className=''>
             <div className='p-10 bg-[#08203a]'>
-                <footer className="footer footer-center text-base-content rounded w-11/12 mx-auto">
+                <footer className="footer footer-center text-base-content rounded">
                     <nav className="grid grid-flow-col gap-4">
                         <a className="link link-hover">About us</a>
                         <a className="link link-hover">Contact</a>

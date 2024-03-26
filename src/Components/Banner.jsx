@@ -2,11 +2,11 @@ import ParticlesBg from "particles-bg";
 import bgimg from '../assets/Logo.jpg'
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
-const Banner = () => {
+const   Banner = () => {
 
     return (
-        <div className="">
-            <div className=" flex md:flex-row flex-col-reverse gap-5 justify-around items-center w-11/12 mx-auto md:my-20 mt-10">
+        <div>
+            <div className=" flex md:flex-row flex-col-reverse gap-5 justify-around items-center w-11/12 mx-auto md:py-10 pt-10">
                 <div className=" text-left">
                     <h2 className=" text-6xl text-white font-Lobester">Hi There👋 <br />I am <span className=" text-pink-900">Roknuzzaman</span></h2>
                     <p className=" text-white text-xl font-Slabo">I am Into <span className=" text-yellow-500">Frontend-Devlopment</span></p>
@@ -24,7 +24,7 @@ const Banner = () => {
                     <img className=" w-72 h-72 rounded-full" src={bgimg} alt="" />
                 </div>
             </div>
-            <ParticlesBg type="random" bg={true}></ParticlesBg>
+            <ParticlesBg  type="random" bg={true} num={200}></ParticlesBg>
         </div>
     );
 };

@@ -9,13 +9,11 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <div className=" bg-black text-white font-Slabo">
-                <About></About>
-                <Serrvice></Serrvice>
-                <Myskill></Myskill>
-                <Myprojects></Myprojects>
-                <Mycontact></Mycontact>
-            </div>
+            <About></About>
+            <Serrvice></Serrvice>
+            <Myskill></Myskill>
+            <Myprojects></Myprojects>
+            <Mycontact></Mycontact>
         </div>
     );
 };
